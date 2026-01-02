@@ -1,4 +1,4 @@
-#Caso por stock
+#Hecho con grafico de pizza.
 
 import mysql.connector 
 import matplotlib.pyplot as pt
