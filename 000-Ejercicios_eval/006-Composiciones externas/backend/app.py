@@ -1,20 +1,21 @@
 import mysql.connector 
-from flask import Flask
+from flask import Flask,render_template
 
 conexion = mysql.connector.connect(
   host="localhost",
   user="composiciones",
   password="composiciones",
   database="composiciones"
-)                                      
+)
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder="/home/bryan/Documents/Bases_de_datos_2do_T/000-Ejercicios_eval/006-Composiciones externas/frontend/templates")
+
 @app.route("/")
 def inicio():
   cursor = conexion.cursor(dictionary=True) 
   cursor.execute("SELECT * FROM matriculas_join;")  
   filas = cursor.fetchall()
-  return render_template("C:\Users\bc714\OneDrive\Documents\GitHub\Bases_de_datos_2do_T\000-Ejercicios_eval\006-Composiciones externas\frontend\index.html", datos = filas)
+  return render_template("index.html", datos = filas)
 
 if __name__ == "__main__":
   # Pon en marcha la aplicación

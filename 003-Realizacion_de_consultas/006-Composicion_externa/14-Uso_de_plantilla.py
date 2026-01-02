@@ -1,5 +1,5 @@
 import mysql.connector 
-from flask import Flask
+from flask import Flask,render_template
 
 conexion = mysql.connector.connect(
   host="localhost",

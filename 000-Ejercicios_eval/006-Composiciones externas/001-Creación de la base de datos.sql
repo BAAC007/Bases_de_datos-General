@@ -1,25 +1,25 @@
-sudo mysql -u root -p
+--sudo mysql -u root -p
 
-CREATE DATABASES composiciones;
+CREATE DATABASE composiciones;
 
 USE composiciones;
 
 CREATE TABLE alumnos(
-    Identificador INT PRIMARY KEY
+    Identificador INT PRIMARY KEY,
     nombre VARCHAR(100),
-    apellidos VARCHAR(100),
+    apellidos VARCHAR(100)
 );
 
 
 CREATE TABLE profesores(
-    Identificador INT PRIMARY KEY
+    Identificador INT PRIMARY KEY,
     nombre VARCHAR(100),
-    apellidos VARCHAR(100),
+    apellidos VARCHAR(100)
 );
 
 CREATE TABLE asignaturas(
     Identificador INT PRIMARY KEY,
-    nombre VARCHAR(100)
+    nombre VARCHAR(100),
     id_profesor INT
 );
 
