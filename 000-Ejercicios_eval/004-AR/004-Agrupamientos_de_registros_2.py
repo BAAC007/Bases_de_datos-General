@@ -8,12 +8,7 @@ conexion = mysql.connector.connect(
 )                                      
 cursor = conexion.cursor() 
 
-cursor.execute('''SELECT 
-                  COUNT(stock) AS numero,
-                  stock
-                  FROM productos
-                  GROUP BY stock
-                  ORDER BY numero DESC;''') 
+cursor.execute("SELECT nombre, peso FROM productos;")
 
 filas = cursor.fetchall()
 conexion.close()  # Always close connection!
@@ -24,8 +19,8 @@ peso = [fila[0] for fila in filas]    # counts
 
 pt.figure(figsize=(12, 6))
 pt.bar(etiquetas, peso)
-pt.xlabel("Products")
-pt.ylabel("Count")
+pt.xlabel("Productos")
+pt.ylabel("Peso")
 pt.xticks(rotation=45, ha='right')
 pt.tight_layout()  # Prevents label cutoff
 pt.show()
