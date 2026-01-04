@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Codificar Contraseña en Base64</title>
 </head>
+
 <body>
     <h2>Ingresa tu contraseña</h2>
 
@@ -26,4 +28,5 @@
     }
     ?>
 </body>
+
 </html>
