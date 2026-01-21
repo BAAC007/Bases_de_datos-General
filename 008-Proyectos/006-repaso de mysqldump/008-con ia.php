@@ -3,10 +3,10 @@
 	<head>
   	<style>
     	html,body{padding:0px;margin:0px;width:100%;height:100%;}
-      body{display:flex;justify-content:center;align-items:center;}
-      main{width:500px;height:500px;padding:20px;border:1px solid grey;
+      body{display:flex;justify-content:center;align-items:center;background: black;}
+      main{width:500px;height:500px;padding:20px;border:2px solid white;
       border-radius:5px;display:flex;flex-direction:column;justify-content:space-between;}
-      input{width:100%;padding:10px;box-sizing:border-box;}
+      input{width:100%;padding:10px;box-sizing:border-box; background-color: greenyellow; border: none; border-radius: 10px 10px 10px 10px;}
       article{background:lightgreen;padding:20px;border-radius:10px 0px 10px 10px;}
     </style>
   </head>
