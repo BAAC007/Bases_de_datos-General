@@ -1,0 +1,67 @@
+{
+    "nombre_Completo": "Bryan Alejandro Avila Castro",
+    "ubicacion": "Valencia, España",
+    "contacto": {
+        "telefono": "624 47 3659",
+        "email": "bc714006@gmail.com"
+    },
+    "descripcion_Personal": "Soy graduado de bachillerato en ciencias, poseo conocimientos en programación y suelo usar Java y Python. Soy proactivo y me gusta hacer mis proyectos de forma independiente. También trabajo bien en equipo y me adapto rápido para colaborar eficientemente.",
+    "estudios": [
+        {
+            "titulo": "Bachillerato",
+            "institucion": "U.E.P \"San Francisco de Sales\"",
+            "periodo": "2018 - 2023"
+        }
+    ],
+    "voluntariado": [
+        {
+            "rol": "Labor social",
+            "institucion": "U.E.P \"San Francisco de Sales\"",
+            "periodo": "2022 - 2023",
+            "descripcion": "Realicé tareas en administración, organización de documentación y apoyo a estudiantes."
+        }
+    ],
+    "formacion_Complementaria": [
+        {
+            "titulo": "Estudios online",
+            "plataforma": "Sololearn.com",
+            "anio": "2024",
+            "descripcion": "Aprendí a usar el lenguaje de programación Java en niveles principiante e intermedio."
+        }
+    ],
+    "habilidades_Personales": [
+        {
+            "nombre": "Proactivo",
+            "nivel": 90
+        },
+        {
+            "nombre": "Organizado",
+            "nivel": 85
+        },
+        {
+            "nombre": "Responsable",
+            "nivel": 80
+        },
+        {
+            "nombre": "Creativo",
+            "nivel": 75
+        }
+    ],
+    "lenguajes_Programacion_mas_usados": [
+        {
+            "nombre": "CSS"
+        },
+        {
+            "nombre": "HTML"
+        },
+        {
+            "nombre": "Python"
+        },
+        {
+            "nombre": "Java"
+        },
+        {
+            "nombre": "SQL"
+        }
+    ]
+}

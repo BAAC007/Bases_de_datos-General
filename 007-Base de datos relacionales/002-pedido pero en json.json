@@ -1,0 +1,23 @@
+{
+    "cliente":{
+        "nombre":"Bryan Alejandro",
+        "apellidos":"Avila Castro",
+        "email":"Info@avila.com"
+    },
+    "datos_factura":{
+        "fecha":"2026-01-23",
+        "numero_de_la_factura":"202600001"
+    },
+    "lineas_factura":[
+        {
+            "nombre":"Zapatos",
+            "precio":"35",
+            "cantidad":"1"
+        }
+    ],
+    "totales":{
+        "base_imponible":"80",
+        "iva":"16.80",
+        "total":"96.80"
+    }
+}
