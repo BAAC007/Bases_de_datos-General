@@ -1,2 +1,2 @@
-Hola yo soy el back<br>
-Y en primer lugar hacemos login<br>
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'] . "/browser.php");
