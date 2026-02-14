@@ -35,4 +35,3 @@ $conn->query($sql);
 $conn->close();
 
 echo "El empleado ha sido modificado correctamente";
-?>

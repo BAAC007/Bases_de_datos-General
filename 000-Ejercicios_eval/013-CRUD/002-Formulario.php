@@ -10,7 +10,7 @@ $db   = "empleados";
 $conn = new mysqli($host, $user, $password, $db);
 
 if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
+  die("Conexión fallida: " . $conn->connect_error);
 }
 
 // Inicializa la sesión
@@ -20,19 +20,22 @@ session_start();
 
 <!doctype html>
 <html lang="es">
-  <head>
-    <title>Bryan Avila</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
 
-  <form action="003-procesamodificar.php" method="post">
+<head>
+  <title>Bryan Avila</title>
+  <meta charset="utf-8">
+</head>
 
-      <p>Introduce el id del empleado a modificar</p>
-      <input type="number" name="id" placeholder="id">
-      <input type="submit">
+<body>
+
+  <form action="005-editar.php" method="POST">
+
+    <p>Introduce el id del empleado a modificar</p>
+    <input type="number" name="id" placeholder="id">
+    <input type="submit">
 
   </form>
 
-  </body>
+</body>
+
 </html>
